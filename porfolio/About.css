@@ -1,0 +1,13 @@
+h1 {
+    color: rgb(255, 0, 208);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(224, 11, 75);
+    text-align: left;
+}
+
+p.muc_tieu {
+    max-width: 400px;
+}
