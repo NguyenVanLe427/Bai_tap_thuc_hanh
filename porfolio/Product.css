@@ -5,3 +5,9 @@ h1 {
 h3 {
     color: #0d7c7c;
 }
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
