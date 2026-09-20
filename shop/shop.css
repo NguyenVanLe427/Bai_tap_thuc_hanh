@@ -1,0 +1,148 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search1 {
+    display: flex;
+}
+
+.search select {
+    padding: 10px 10px;
+}
+
+.search1 input {
+    padding: 10px;
+}
+
+.search1 button {
+    background-color: yellow;
+    border: none;
+}
+
+.icon {
+    padding: 20px;
+}
+
+.nav {
+    background-color: #111;
+}
+
+.nav>div {
+    display: flex;
+    justify-content: center;
+}
+
+.nav select {
+    background-color: #222;
+    color: white;
+    border: none;
+    border-right: 1px solid #333;
+    padding: 15px 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border: 1px solid #333;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    /* Chia hình bằng nhau */
+    place-items: center;
+    /* căn giữa đi với grid # justify conten đi với flex */
+    margin-top: 20px;
+}
+
+.card {
+    place-items: center;
+    position: relative;
+}
+
+.image img {
+    height: 300px;
+    width: 300px;
+}
+
+.information .t1 {
+    color: aquamarine
+}
+
+.information .t2 {
+    color: yellow
+}
+
+.information .t3 {
+    color: rgb(127, 29, 192)
+}
+
+.information {
+    font-size: 20px;
+}
+
+.sale {
+    position: absolute;
+    color: #111;
+    background-color: yellow;
+    top: 10px;
+    left: 0;
+    margin: 0;
+}
+
+.colab {
+    display: flex;
+    background-color: #333;
+    color: white;
+    justify-content: center;
+    gap: 200px;
+}
+
+.decript {
+    display: flex;
+    background-color: black;
+    gap: 200px;
+    color: white;
+}
+
+.button {
+    display: flex;
+}
+
+.button button {
+    padding: 10px 10px;
+    background-color: yellow;
+    border: none;
+}
+
+.chantrang p {
+    background-color: black;
+    color: white;
+    margin: 0;
+    border-top: solid 2px#333;
+    padding: 10px 10px;
+}
+
+.mau {
+    color: rgb(172, 172, 172);
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.mau i {
+    font-size: 18px;
+}
+
+.department {
+    display: flex;
+    background-color: #222;
+    margin: 0;
+}
