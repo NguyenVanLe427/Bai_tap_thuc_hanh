@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    padding: 10px 40px;
+}
+
+.thanhbar>a {
+    text-decoration: none;
+}
+
+.thanhbar {
+    gap: 40px;
+    display: flex;
+}
+
+.Virtural-healthcare {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: azure;
+    gap: 20px;
+}
+
+.Virtural-healthcare img {
+    width: 70%;
+    height: 300px;
+}
+
+.Virtural-healthcare button {
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.Virtural-left {
+    flex: 1;
+}
+
+.Virtural-right {
+    flex: 1;
+}
