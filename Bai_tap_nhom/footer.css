@@ -1,0 +1,23 @@
+.footer {
+    background-color: #69b1f8;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 200px;
+    color: #fff;
+    font-family: Arial;
+}
+
+
+/* .body {
+    margin: 0;
+} */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}

@@ -24,14 +24,16 @@
 }
 
 .Virtural-healthcare img {
-    width: 70%;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 .Virtural-healthcare button {
-    border-radius: 10px;
-    background-color: blue;
+    border-radius: 15px;
+    background-color: rgb(76, 76, 230);
     color: white;
+    border: none;
+    padding: 10px 10px;
 }
 
 .Virtural-left {
@@ -40,4 +42,8 @@
 
 .Virtural-right {
     flex: 1;
+}
+
+.Virtural-healthcare p {
+    max-width: 400px;
 }
