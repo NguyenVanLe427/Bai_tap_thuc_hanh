@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <label id="NBA">Number A (*)</label>
+        <input type="number" id="NBA_input">
+
+        <br>
+
+        <label id="NBB">Number B (*)</label>
+        <input type="number" id="NBB_input">
+
+        <br><br>
+
+        <label>Summation :</label>
+        <button type="button" id="plus" onclick="tinhTong()">+</button>
+        <br>
+
+        <label>Subtraction :</label>
+        <button type="button" id="minus" onclick="tinhHieu()">-</button>
+        <br>
+
+        <label>Multiplication :</label>
+        <button type="button" id="mutil" onclick="tinhTich()">*</button>
+        <br>
+
+        <label>Division :</label>
+        <button type="button" id="Divi" onclick="tinhThuong()">/</button>
+
+        <br><br><br>
+
+        <label id="Result">Result A & B:</label>
+        <!-- Readonly: làm cho người dùng chỉ đọc được nhưng không sửa được -->
+        <input type="text" id="Kq" readonly>
+    </form>
+</body>
+<script src="Bai1.js"></script>
+
+</html>
